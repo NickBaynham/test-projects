@@ -19,6 +19,10 @@ var counter = {
         return this
     },
 
+    value: function() {
+      return this._current
+    },
+
     _CounterException: function (message) {
         this.message = message;
         this.name = 'CounterException';
