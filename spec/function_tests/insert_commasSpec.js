@@ -47,4 +47,23 @@ describe("inserting comma tests", function(){
         expect(myLib.choose(999)).toBe('yes');
         expect(myLib.choose(0.000001)).toBe('yes');
     });
+
+    it("can create Counters", function(){
+        var counter = require('./../../js/counter');
+        expect(counter).not.toBe(null);
+        expect(counter._min).toBe(1);
+        expect(counter._max).toBe(10);
+        expect(counter._current).toBe(1);
+        counter.next();
+        expect(counter._current).toBe(2);
+        counter.next().next().next().next().next().next().next().next();
+        expect(counter._current).toBe(10);
+        try {
+            counter.next();
+        }
+        catch (e) {
+            expect(e.name).toBe('CounterException');
+            expect(e.message).toBe('value is too large')
+        }
+    });
 });
