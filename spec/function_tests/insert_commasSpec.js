@@ -65,5 +65,16 @@ describe("inserting comma tests", function(){
             expect(e.name).toBe('CounterException');
             expect(e.message).toBe('value is too large')
         }
+        counter.previous().previous();
+        expect(counter._current).toBe(9);
+        counter.previous().previous().previous().previous().previous().previous().previous().previous();
+        expect(counter._current).toBe(1);
+        try {
+            counter.previous();
+        }
+        catch (e) {
+            expect(e.name).toBe('CounterException');
+            expect(e.message).toBe('value is too small')
+        }
     });
 });

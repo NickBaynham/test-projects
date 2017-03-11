@@ -13,6 +13,12 @@ var counter = {
         return this
     },
 
+    previous: function(){
+        if (--this._current < this._min)
+            throw new this._CounterException('value is too small');
+        return this
+    },
+
     _CounterException: function (message) {
         this.message = message;
         this.name = 'CounterException';
