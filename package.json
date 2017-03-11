@@ -16,5 +16,8 @@
     "javascript"
   ],
   "author": "Nick Baynham",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
 }
