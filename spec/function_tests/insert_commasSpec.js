@@ -50,12 +50,9 @@ describe("inserting comma tests", function(){
 
     it("can create Counters", function(){
         var counter = require('./../../js/counter');
-        expect(counter).not.toBe(null);
         expect(counter.value()).toBe(1);
-        counter.next();
-        expect(counter.value()).toBe(2);
-        counter.next().next().next().next().next().next().next().next();
-        expect(counter.value()).toBe(10);
+        expect(counter.next().value()).toBe(2);
+        expect(counter.next().next().next().next().next().next().next().next().value()).toBe(10);
         try {
             counter.next();
         }
@@ -63,10 +60,8 @@ describe("inserting comma tests", function(){
             expect(e.name).toBe('CounterException');
             expect(e.message).toBe('value is too large')
         }
-        counter.previous().previous();
-        expect(counter.value()).toBe(9);
-        counter.previous().previous().previous().previous().previous().previous().previous().previous();
-        expect(counter.value()).toBe(1);
+        expect(counter.previous().previous().value()).toBe(9);
+        expect(counter.previous().previous().previous().previous().previous().previous().previous().previous().value()).toBe(1);
         try {
             counter.previous();
         }
@@ -74,5 +69,6 @@ describe("inserting comma tests", function(){
             expect(e.name).toBe('CounterException');
             expect(e.message).toBe('value is too small')
         }
+        expect(counter.next().value()).toBe(1);
     });
 });
