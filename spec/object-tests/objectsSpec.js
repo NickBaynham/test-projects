@@ -13,4 +13,12 @@ describe("creating counter objects", function(){
         cs.rewind();
     });
 
+    it("Create Counter with Constructor", function(){
+        var Counter = require('./../../js/Counter2');
+        c1 = new Counter(10);
+        c2 = new Counter(20, 10);
+        c1.next();
+        c1.previous();
+        expect(c1.next().value()).toBe(2);
+    });
 });

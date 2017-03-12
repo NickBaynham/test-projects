@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$/spec/function_tests/insert_commasSpec.js" libraries="{jasmine-DefinitelyTyped}" />
+    <file url="file://$PROJECT_DIR$" libraries="{test-projects-again/node_modules}" />
+    <file url="file://$PROJECT_DIR$/js/files.js" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/js/files2.js" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/spec/function_tests/exportFunctionsSpec.js" libraries="{Node.js Core, angular-protractor-DefinitelyTyped, jasmine-DefinitelyTyped, jasmine-node-DefinitelyTyped, karma-jasmine-DefinitelyTyped}" />
+    <file url="file://$PROJECT_DIR$/spec/function_tests/insert_commasSpec.js" libraries="{Node.js Core, jasmine-DefinitelyTyped, karma-jasmine-DefinitelyTyped}" />
+    <file url="PROJECT" libraries="{jasmine-DefinitelyTyped, jasmine-node-DefinitelyTyped, karma-jasmine-DefinitelyTyped, test-projects-again/node_modules}" />
+    <includedPredefinedLibrary name="WebGL" />
+    <excludedPredefinedLibrary name="HTML" />
+    <excludedPredefinedLibrary name="HTML5 / EcmaScript 5" />
   </component>
 </project>
