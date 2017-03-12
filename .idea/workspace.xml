@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18dbd463-6b4f-46d0-a85b-ccadc9932a4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Counter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/counter-module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/exportFunctions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/files.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/files2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/function_tests/directorySpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/function_tests/exportFunctionsSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/function_tests/filesSpec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directory2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/httpserver.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test-projects-again.iml" afterPath="$PROJECT_DIR$/.idea/test-projects-again.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/function_tests/insert_commasSpec.js" afterPath="$PROJECT_DIR$/spec/function_tests/insert_commasSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/object-tests/objectsSpec.js" afterPath="$PROJECT_DIR$/spec/object-tests/objectsSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directory.js" afterPath="$PROJECT_DIR$/js/directory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/function_tests/directorySpec.js" afterPath="$PROJECT_DIR$/spec/function_tests/directorySpec.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,23 +25,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="directory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/directory.js">
+      <file leaf-file-name="httpserver.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/httpserver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directorySpec.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/function_tests/directorySpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="152">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -97,8 +77,10 @@
         <option value="$PROJECT_DIR$/js/files.js" />
         <option value="$PROJECT_DIR$/js/files2.js" />
         <option value="$PROJECT_DIR$/spec/function_tests/filesSpec.js" />
-        <option value="$PROJECT_DIR$/js/directory.js" />
         <option value="$PROJECT_DIR$/spec/function_tests/directorySpec.js" />
+        <option value="$PROJECT_DIR$/js/directory.js" />
+        <option value="$PROJECT_DIR$/js/directory2.js" />
+        <option value="$PROJECT_DIR$/js/httpserver.js" />
       </list>
     </option>
   </component>
@@ -496,20 +478,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/directory.js">
+    <entry file="file://$PROJECT_DIR$/spec/function_tests/directorySpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/function_tests/directorySpec.js">
+    <entry file="file://$PROJECT_DIR$/js/directory2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="646">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/httpserver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
