@@ -18,10 +18,11 @@ http.createServer(function(req, res){
                 res.writeHead(200, {'Content-Type':'text/plain'});
                 res.end("Sorry, Scott isn't around right now \n");
             } else {
-                var img = fs.readFileSync(file);
-                res.contentType = 'image/png';
-                res.contentLength = stat.size;
-                res.end(img, 'binary');
+                fs.readFile(file, function(err, data){
+                    res.contentType = 'image/png';
+                    res.contentLength = stat.size;
+                    res.end(data, 'binary');
+                });
             }
         });
     } else {
