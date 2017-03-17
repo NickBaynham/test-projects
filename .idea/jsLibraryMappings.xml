@@ -12,6 +12,8 @@
     <file url="file://$PROJECT_DIR$/node/callback.js" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/node/cmdAddTwo.js" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/node/decoder.js" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/node/eventEmitter.js" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/node/eventObject.js" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/node/event_loop.js" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/node/helloWorld.js" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/node/scott.js" libraries="{Node.js Core}" />
